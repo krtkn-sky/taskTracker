@@ -43,7 +43,7 @@ def get_selected_date():
     e3.insert(0, selected_date)
 
 window = Tk()
-
+window.title("Task Tracker")
 
 l1 = Label(window, text="Task")
 l1.grid(row=0, column=0)
